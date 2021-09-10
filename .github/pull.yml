@@ -3,3 +3,7 @@ rules:
   - base: main
     upstream: jwasham:coding-interview-university
     mergeMethod: squash
+    conflictReviewers:
+      - RonLek
+label: ":arrow_heading_down: pull"
+conflictLabel: "merge-conflict"
