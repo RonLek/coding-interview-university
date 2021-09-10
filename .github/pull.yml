@@ -2,7 +2,7 @@ version: "1"
 rules:
   - base: main
     upstream: jwasham:main
-    mergeMethod: squash
+    mergeMethod: rebase
     conflictReviewers:
       - RonLek
 label: ":arrow_heading_down: pull"
